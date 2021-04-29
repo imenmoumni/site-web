@@ -1,0 +1,102 @@
+.header {
+    float: right;
+    margin-top: auto;
+    
+    justify-content: center;
+    margin-right: 80px;
+    
+  }
+  
+  body {
+    background-image: url('ob.jpg');
+    background-size: cover;
+  }
+ .log{
+   width: 150px;
+ height: 80px;
+ display: inline;
+ }
+
+ li {
+    display: inline;
+  float: left; 
+  justify-content: space-around;
+    border-right:1px solid #bbb;
+   
+  }
+  
+  li a {
+    display: block;
+    color: rgb(2, 2, 2);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(199, 86, 86);
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  ul {
+    list-style-type: none;
+    margin-right: 90px;
+    overflow: hidden;
+    background-color: none;
+  
+  }
+  .border {
+    margin: 10px;
+    padding: 12px;
+    width: 29%;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: medium;
+      border-radius: 10px;
+      background-color: transparent;
+      display: inline;
+    }
+    .pop{
+        width: 90%;
+        height: 50%; 
+    }
+    .column img{
+        width: 20%;
+        height: 20%;
+       
+        
+    }
+   .air img { width: 30px;
+    height: 30px;
+   }
+ 
+  .car {
+    padding: 20px;
+    font-family: cursive;
+    font-size: medium;
+  }
+button {
+background-color:green ;
+width: 80px;
+height: 30px;
+margin: 10px;
+
+}
+.layout { padding: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+  
+.doc img{
+  width: 40px; 
+  height: 30px;
+
+}
+
+
+.parag {
+  width: 60%;
+  margin-left: 30%;
+}
